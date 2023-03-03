@@ -1,0 +1,9 @@
+.jumbotron {
+    background-image: linear-gradient(to bottom, #051937, #444964, #808195, #bfbec8, #ffffff);
+}
+
+.icons {
+    padding: 5px;
+    width: 10%;
+    /* padding-right: 30px; */
+}
