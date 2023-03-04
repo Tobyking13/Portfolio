@@ -9,7 +9,7 @@ function PortfolioCard(props) {
           <img alt={props.name} src={props.image} />
         </div>
         <div className="content">
-         
+          <br></br>
           <h2 style={{ color: "#36454F" }}>{props.name}</h2>
           <br></br>
           <strong>Description:</strong> {props.description}

@@ -3,10 +3,11 @@ import { NavLink } from 'react-router-dom';
 
 import "./style.css"
 
-function NavTabs() {
+function NavTabs({ theme }) {
+  const navbarClass = theme === 'dark' ? 'dark-theme' : 'light-theme';
   return (
-    <ul className="nav nav-tabs">
-      <li className="nav-item btn-grad">
+    <ul className={`nav nav-tabs ${navbarClass}`} >
+      <li className={`nav-item btn-grad ${navbarClass}`}>
         <NavLink
           to="/"
           end

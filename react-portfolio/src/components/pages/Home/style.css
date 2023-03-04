@@ -1,3 +1,13 @@
 .jumbotron {
     margin-bottom: 30px;
 }
+
+.home-div {
+    display: flex;
+}
+
+.home-text {
+    display: flex;
+    justify-content: space-evenly;
+    flex-direction: column;
+}

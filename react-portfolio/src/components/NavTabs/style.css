@@ -1,20 +1,19 @@
 .nav-tabs {
-    position: fixed;
+    position: absolute;
     top: 15px;
     right: 160px;
     border: none !important;
+    width: 30%;
 }
 
 .nav-item{
-    width: 20%;
+    width: clamp(80px, 20%, 50px);
     display: flex;
     justify-content: center;
     align-items: center;
 }
 
-.nav-item a{
-    color: grey;
-}
+
 
 .nav-link {
     border: none !important;
@@ -28,13 +27,13 @@
 }
 
 .nav-link:hover {
-    color: grey !important;
+    /* color: grey !important; */
     background-color: none;
     text-decoration: none;    
 }
 
 .nav-link a {
     text-decoration: none;
-    color: black;
+    /* color: black; */
 }
 

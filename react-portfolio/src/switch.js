@@ -11,7 +11,7 @@ function Switch({toggleTheme, isDarkTheme}) {
 
   return (
     <label className="toggle-switch">
-      <input type="checkbox" checked={isToggled} onChange={onToggle} />
+      <input type="checkbox" checked={isDarkTheme} onChange={onToggle} />
       <span className="switch" />
     </label>
   );
