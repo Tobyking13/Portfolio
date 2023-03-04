@@ -61,7 +61,8 @@ function Jumbotron() {
             className="icons"
             />
           </div>
-          
+          <hr className="my-4" />
+
       </div>
  
   );

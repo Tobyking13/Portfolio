@@ -1,12 +1,17 @@
 import React from "react";
-import Jumbotron from "./components/jumbotron";
-import "./style.css"
-
+import Jumbotron from "./components/jumbotron/jumbotron";
+import Image from "./components/image/image";
+import "./style.css";
 
 function Home() {
   return (
-    <div className="container-fluid">
-      <Jumbotron />
+    <div className="container">
+      <div>
+        <Jumbotron className="jumbotron" />
+      </div>
+      <div>
+        <Image className="image" />
+      </div>
     </div>
   );
 }

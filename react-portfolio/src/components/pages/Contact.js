@@ -4,7 +4,11 @@ import Learn from './Learn';
 
 function Contact(props) {
   return (
-    <div>
+    <div className="container">
+         <div>
+        <h1 className="display-4">About Me</h1>
+
+  
       <h1>Contact Page</h1>
       <p>
         Integer cursus bibendum sem non pretium. Vestibulum in aliquet sem, quis
@@ -28,6 +32,7 @@ function Contact(props) {
       <Routes>
         <Route path="learn" element={<Learn />} />
       </Routes>
+    </div>
     </div>
   );
 }
