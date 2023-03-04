@@ -1,9 +1,12 @@
-.jumbotron {
-    background-image: linear-gradient(to bottom, #051937, #444964, #808195, #bfbec8, #ffffff);
-}
+/* html, body {
+    background: linear-gradient( rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.5) ), url(../../../../assets/waves.jpg);
+    background-position:top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 100vh;
+    
+} */
 
-.icons {
-    padding: 5px;
-    width: 10%;
-    /* padding-right: 30px; */
+h1, h2, h3, h4, h5, h6, a, p {
+    color: rgb(212, 212, 212);
 }

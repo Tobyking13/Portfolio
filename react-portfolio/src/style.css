@@ -2,3 +2,12 @@ body {
     margin: 0;
     padding: 0;
  }
+
+.theme-switch{
+    position: absolute;
+    right: 0;
+    top: 2%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
