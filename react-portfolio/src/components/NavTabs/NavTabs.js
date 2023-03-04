@@ -1,11 +1,12 @@
 import React from 'react';
 import { NavLink } from 'react-router-dom';
+
 import "./style.css"
 
 function NavTabs() {
   return (
     <ul className="nav nav-tabs">
-      <li className="nav-item">
+      <li className="nav-item btn-grad">
         <NavLink
           to="/"
           end
@@ -57,9 +58,17 @@ function NavTabs() {
           Learn
         </NavLink>
       </li>
-     
+      <li className="nav-item">
+        <NavLink
+          to="lightDark"
+          className={({ isActive }) =>
+            isActive ? 'nav-link active' : 'nav-link'
+          }
+        >
+        
+        </NavLink>
+      </li>
     </ul>
-    
   );
 }
 

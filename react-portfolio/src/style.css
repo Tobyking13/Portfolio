@@ -3,11 +3,12 @@ body {
     padding: 0;
  }
 
-.theme-switch{
-    position: absolute;
+ .theme-switch{
+    position: fixed;
+    top: 25px;
     right: 0;
-    top: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
+    width: 200px !important;
 }
