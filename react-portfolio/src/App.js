@@ -30,6 +30,11 @@ const lightTheme = {
   subtitle: "#b6b6b6",
 };
 
+const navbarStyle = styled.div`
+  background-color: ${(props) => props.theme.body};
+  color: ${(props) => props.theme.title};
+`;
+
 function App() {
   const [theme, setTheme] = useState("dark");
   const isDarkTheme = theme === "dark";
@@ -42,9 +47,12 @@ function App() {
     <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
       <StyledApp>
         <Router>
-          <div className="navbar">
+          <navbarStyle className="navbar">
+          <div className="navbar" isDarkTheme={isDarkTheme}>
             <NavTabs />
             {/* Wrap Route elements in a Routes component */}
+            </div>
+            </navbarStyle>
             <Routes>
               {/* Define routes using the Route component to render different page components at different paths */}
               {/* Define a default route that will render the Home component */}
@@ -59,7 +67,7 @@ function App() {
               <Switch toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
               <MoonIcon />
             </div>
-          </div>
+          
           
        
         </Router>
