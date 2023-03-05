@@ -12,7 +12,7 @@ import Switch from "./switch";
 import "./style.css";
 
 let StyledApp = styled.div`
-  min-height: 100vh;
+  min-height: 200vh;
   background-color: ${(props) => props.theme.body};
   color: ${(props) => props.theme.title};
 `;
