@@ -12,6 +12,7 @@ function About() {
     <div className="container">
         <h1 className="display-4">About Me</h1>
         <hr className="my-4" />
+        <div className="container">
         <div className="home-text" style={style}>
           <p>
             I am a driven front-end web developer with a passion for coding and
@@ -40,6 +41,7 @@ function About() {
             technical skills, enable me to bring a distinctive blend of creative
             vision and technical proficiency to every project I undertake.
           </p>
+          </div>
         </div>
     </div>
   );

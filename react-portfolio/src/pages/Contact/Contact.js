@@ -15,8 +15,8 @@ function Contact() {
             <br></br>
             <h3 className="display-6">Email</h3>
             <br></br>
-            <button type="button" class="btn btn-outline-dark btn-lg">
-              <a href="tobyrking@icloud.com">Send email</a>
+            <button type="button" class="btn btn-outline-dark btn-lg contact-button">
+              <a href="mailto:tobyrking@icloud.com">Send email</a>
             </button>
             <br></br>
             <br></br>
