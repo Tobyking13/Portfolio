@@ -49,7 +49,7 @@ function NavTabs({ theme }) {
           Contact
         </NavLink>
       </li>
-      <li className="nav-item">
+      {/* <li className="nav-item">
         <NavLink
           to="contact/learn"
           className={({ isActive }) =>
@@ -58,7 +58,7 @@ function NavTabs({ theme }) {
         >
           Learn
         </NavLink>
-      </li>
+      </li> */}
       <li className="nav-item">
         <NavLink
           to="lightDark"

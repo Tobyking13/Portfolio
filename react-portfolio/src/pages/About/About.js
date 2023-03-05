@@ -1,19 +1,18 @@
 import React from "react";
-import Jumbotron from "./components/jumbotron/jumbotron";
-import Image from "./components/image/image";
-import "./style.css";
 
-function Home() {
+function About() {
+
+  const style = {
+    display: 'flex',
+    justifyContent: 'space-evenly',
+    flexDirection: 'column',
+    fontSize: "20px"
+  }
   return (
     <div className="container">
-      <div>
-        <Jumbotron className="jumbotron" />
-      </div>
-      <div className="home-div">
-        <div>
-          <Image className="image" />
-        </div>
-        <div className="home-text" style={{ fontSize: "20px" }}>
+        <h1 className="display-4">About Me</h1>
+        <hr className="my-4" />
+        <div className="home-text" style={style}>
           <p>
             I am a driven front-end web developer with a passion for coding and
             design. My love for music and sound engineering, combined with my
@@ -42,9 +41,8 @@ function Home() {
             vision and technical proficiency to every project I undertake.
           </p>
         </div>
-      </div>
     </div>
   );
 }
 
-export default Home;
+export default About;

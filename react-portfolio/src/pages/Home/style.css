@@ -1,0 +1,17 @@
+.jumbotron {
+    margin-bottom: 30px;
+}
+
+.home-div {
+    display: flex;
+}
+
+.iframe {
+    height: 500px;
+    width: 80vw;
+}
+
+.me {
+    height: 500px;
+    margin-right: 40px;
+}

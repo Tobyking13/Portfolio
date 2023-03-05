@@ -1,10 +1,10 @@
 import React, { useState } from "react";
 import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 import NavTabs from "./components/NavTabs/NavTabs.js";
-import Home from "./components/pages/Home/Home";
-import About from "./components/pages/About";
-import Contact from "./components/pages/Contact/Contact";
-import Portfolio from "./components/pages/Portfolio/Portfolio";
+import Home from "./pages/Home/Home";
+import About from "./pages/About/About.js";
+import Contact from "./pages/Contact/Contact";
+import Portfolio from "./pages/Portfolio/Portfolio";
 import styled, { ThemeProvider } from "styled-components";
 import MoonIcon from "./components/icons/moonIcon";
 import SunIcon from "./components/icons/sunIcon";
@@ -39,7 +39,9 @@ function App() {
     <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
       <StyledApp>
         <Router>
-          <NavTabs />
+          <header>
+            <NavTabs />
+          </header>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="about" element={<About />} />
