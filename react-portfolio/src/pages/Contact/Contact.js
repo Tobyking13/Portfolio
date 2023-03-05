@@ -11,11 +11,17 @@ function Contact() {
 
         <div className="col-4">
           <div className="contact-info">
+          <br></br>
+            <br></br>
             <h3 className="display-6">Email</h3>
             <br></br>
             <button type="button" class="btn btn-outline-dark btn-lg">
               <a href="tobyrking@icloud.com">Send email</a>
             </button>
+            <br></br>
+            <br></br>
+            <br></br>
+            <br></br>
             <br></br>
             <br></br>
         <h3 className="display-6">Socials</h3>
@@ -24,18 +30,18 @@ function Contact() {
               href="https://www.linkedin.com/in/toby-king-951193266/"
             >
               <img
+                className="contact-icons"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
                 alt="LinkedIn"
-                className="icons"
               />
             </a>
             <br></br>
             <br></br>
             <a className="contact-icons" href="https://github.com/Tobyking13">
               <img
+                className="contact-icons"
                 src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
                 alt="LinkedIn"
-                className="icons"
               />
             </a>
           </div>
