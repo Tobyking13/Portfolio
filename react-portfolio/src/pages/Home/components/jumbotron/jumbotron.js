@@ -4,8 +4,8 @@ import "./style.css"
 function Jumbotron() {
   return (
       <div className="jumbotron" >
-        <h1 className="display-4">Toby King Portfolio</h1>
-        <hr className="my-4" />
+        <h1 className="display-4 header-title">Toby King Portfolio</h1>
+        
 
           <p className="lead">Experienced full-stack web developer with a background in music science, dedicated to developing high-quality, innovative solutions that exceed client expectations. Skilled in creative problem-solving, project management, and delivering engaging user interfaces and complex backend systems.</p>
           {/* <p>It uses utility classNamees for typography and spacing to space content out within the larger container.</p> */}

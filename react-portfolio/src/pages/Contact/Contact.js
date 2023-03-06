@@ -6,44 +6,9 @@ function Contact() {
   return (
     <div className="container">
       <div className="row">
-        <h1 className="display-4">Contact Me</h1>
-        <hr className="my-4" />
-
+        <h1 className="display-4 header-title">Contact Me</h1>
         <div className="col-4">
           <div className="contact-info">
-            {/* <br></br>
-            <br></br>
-            <h3 className="display-6">Email</h3>
-            <br></br>
-            <button type="button" class="btn btn-outline-dark btn-lg contact-button">
-              <a href="mailto:tobyrking@icloud.com">Send email</a>
-            </button>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-            <br></br>
-        <h3 className="display-6">Socials</h3>
-            <a
-              className="contact-icons"
-              href="https://www.linkedin.com/in/toby-king-951193266/"
-            >
-              <img
-                className="contact-icons"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-                alt="LinkedIn"
-              />
-            </a>
-            <br></br>
-            <br></br>
-            <a className="contact-icons" href="https://github.com/Tobyking13">
-              <img
-                className="contact-icons"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                alt="LinkedIn"
-              />
-            </a> */}
             <div className="contact-form">
               <form
                 action="https://getform.io/f/05330002-35c0-4ec1-8217-46dfad3de30c"

@@ -6,9 +6,9 @@ import About from "./pages/About/About.js";
 import Contact from "./pages/Contact/Contact";
 import Portfolio from "./pages/Portfolio/Portfolio";
 import styled, { ThemeProvider } from "styled-components";
-import MoonIcon from "./components/icons/moonIcon";
-import SunIcon from "./components/icons/sunIcon";
-import Switch from "./switch";
+import MoonIcon from "./components/switch/icons/moonIcon";
+import SunIcon from "./components/switch/icons/sunIcon";
+import Switch from "./components/switch/switch.js";
 import "./style.css";
 
 let StyledApp = styled.div`
@@ -41,18 +41,23 @@ function App() {
         <Router>
           <header>
             <NavTabs />
-          </header>
+            </header>
+            <div className="theme-switch">
+            <SunIcon />
+            <Switch toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
+            <MoonIcon />
+          </div>
+        
+          
+          <div>
+          <hr className="my-4 header-hr" />
+          </div>
           <Routes>
             <Route path="/" element={<Home />} />
             <Route path="about" element={<About />} />
             <Route path="portfolio" element={<Portfolio />} />
             <Route path="contact/*" element={<Contact />} />
           </Routes>
-          <div className="theme-switch">
-            <SunIcon />
-            <Switch toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
-            <MoonIcon />
-          </div>
         </Router>
       </StyledApp>
     </ThemeProvider>

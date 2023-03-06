@@ -10,8 +10,7 @@ function About() {
   }
   return (
     <div className="container">
-        <h1 className="display-4">About Me</h1>
-        <hr className="my-4" />
+        <h1 className="display-4 header-title">About Me</h1>
         <div className="container">
         <div className="home-text" style={style}>
           <p>

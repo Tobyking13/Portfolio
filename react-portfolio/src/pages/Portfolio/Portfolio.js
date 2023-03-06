@@ -13,8 +13,7 @@ class Portfolio extends Component {
     return (
       <div className="container">
         <div className="header">
-          <h1 className="display-4">Projects</h1>
-          <hr className="my-4" />
+          <h1 className="display-4 header-title">Projects</h1>
         </div>
         <Wrapper>
           {this.state.projects.map((project) => (
