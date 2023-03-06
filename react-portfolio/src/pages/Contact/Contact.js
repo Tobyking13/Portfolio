@@ -6,7 +6,6 @@ function Contact() {
   return (
     <div className="container">
       <div className="row">
-        <h1 className="display-4 header-title">Contact Me</h1>
         <div className="col-4">
           <div className="contact-info">
             <div className="contact-form">

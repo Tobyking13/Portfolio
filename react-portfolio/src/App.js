@@ -9,6 +9,7 @@ import styled, { ThemeProvider } from "styled-components";
 import MoonIcon from "./components/switch/icons/moonIcon";
 import SunIcon from "./components/switch/icons/sunIcon";
 import Switch from "./components/switch/switch.js";
+import Title from "./components/Title/title.js";
 import "./style.css";
 
 let StyledApp = styled.div`
@@ -40,6 +41,7 @@ function App() {
       <StyledApp>
         <Router>
           <header>
+            <Title />
             <NavTabs />
             </header>
             <div className="theme-switch">
@@ -47,8 +49,6 @@ function App() {
             <Switch toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
             <MoonIcon />
           </div>
-        
-          
           <div>
           <hr className="my-4 header-hr" />
           </div>

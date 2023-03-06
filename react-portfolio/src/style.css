@@ -5,7 +5,7 @@ body {
 
 .theme-switch{
     position: fixed;
-    top: 25px;
+    top: 4%;
     right: 0;
     display: flex;
     justify-content: center;

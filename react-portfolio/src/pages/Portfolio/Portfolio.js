@@ -12,9 +12,6 @@ class Portfolio extends Component {
   render() {
     return (
       <div className="container">
-        <div className="header">
-          <h1 className="display-4 header-title">Projects</h1>
-        </div>
         <Wrapper>
           {this.state.projects.map((project) => (
             <PortfolioCard
