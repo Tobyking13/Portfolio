@@ -12,5 +12,10 @@
 }
 
 .contact-button {
-    background-color: #FAF9F6;
+    background-color: #FAF9F6 !important;
 }
+
+/* .contact-form {
+    display: flex;
+    flex-direction: column;
+} */
