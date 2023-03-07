@@ -2,9 +2,9 @@
     text-align: center; 
 }
 
-.contact-icons {
+/* .contact-icons {
     width: 40% !important;
-}
+} */
 
 .cv {
     width: 150%;
@@ -15,7 +15,7 @@
     background-color: #FAF9F6 !important;
 }
 
-/* .contact-form {
-    display: flex;
-    flex-direction: column;
-} */
+.fa-icon {
+    font-size: 150px;
+    color: #717171;
+}

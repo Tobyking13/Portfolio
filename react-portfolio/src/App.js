@@ -13,7 +13,7 @@ import Title from "./components/Title/title.js";
 import "./style.css";
 
 let StyledApp = styled.div`
-  min-height: 200vh;
+  min-height: 100vh;
   background-color: ${(props) => props.theme.body};
   color: ${(props) => props.theme.title};
 `;

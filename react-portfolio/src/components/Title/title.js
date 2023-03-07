@@ -24,7 +24,7 @@ function Title() {
     const style = {
         position: 'relative',
         top: '10px',
-        left: '10px'
+        left: '40px'
     }
 
     return (

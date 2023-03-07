@@ -1,6 +1,10 @@
 import React from "react";
-// import { Link, Route, Routes } from "react-router-dom";
+import { faSquareGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLinkedin} from "@fortawesome/free-brands-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import "./style.css";
+
+
 
 function Contact() {
   return (
@@ -15,7 +19,7 @@ function Contact() {
               >
                 <label for="name">Name:</label>
                 <br></br>
-                <input type="text" name="name" id="name"/>
+                <input type="text" name="name" id="name" />
                 <br></br>
                 <label for="email">Email:</label>
                 <br></br>
@@ -30,29 +34,25 @@ function Contact() {
                   style={{ display: "none !important" }}
                 />
                 <br></br>
-                <button className="btn btn-outline-dark btn-lg contact-button" type="submit">Send</button>
+                <button
+                  className="btn btn-outline-dark btn-lg contact-button"
+                  type="submit"
+                >
+                  Send
+                </button>
               </form>
               <br></br>
               <h3 className="display-6">Socials</h3>
-            <a
-              className="contact-icons"
-              href="https://www.linkedin.com/in/toby-king-951193266/"
-            >
-              <img
-                className="contact-icons"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/linkedin/linkedin-original.svg"
-                alt="LinkedIn"
-              />
-            </a>
-            <br></br>
-            <br></br>
-            <a className="contact-icons" href="https://github.com/Tobyking13">
-              <img
-                className="contact-icons"
-                src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg"
-                alt="LinkedIn"
-              />
-            </a>
+              <a
+                href="https://www.linkedin.com/in/toby-king-951193266/"
+              >
+               <FontAwesomeIcon icon={faLinkedin} className="fa-icon" />
+              </a>
+              <br></br>
+              <br></br>
+              <a href="https://github.com/Tobyking13">
+              <FontAwesomeIcon icon={faSquareGithub} className="fa-icon" />
+              </a>
             </div>
           </div>
         </div>
