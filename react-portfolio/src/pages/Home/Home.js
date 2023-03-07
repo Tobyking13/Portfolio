@@ -9,7 +9,7 @@ function Home() {
       <div>
         <Jumbotron className="jumbotron" />
       </div>
-      <div className="home-div">
+      <div className="container home-div">
         <div>
           <Image className="image" />
         </div>
