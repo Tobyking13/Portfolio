@@ -5,11 +5,10 @@ function Jumbotron() {
   return (
     <div className="jumbotron">
       <p className="lead">
-        Experienced full-stack web developer with a background in music science,
-        dedicated to developing high-quality, innovative solutions that exceed
-        client expectations. Skilled in creative problem-solving, project
-        management, and delivering engaging user interfaces and complex backend
-        systems.
+        A full-stack web developer with a background in music science, dedicated
+        to delivering high-quality and innovative solutions that exceed client
+        expectations. Skilled in creative problem-solving, project management,
+        and delivering engaging user interfaces and complex backend systems.{" "}
       </p>
       <hr className="my-4" />
       <div>
