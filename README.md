@@ -23,7 +23,7 @@
 
   ### Installation 
 
-  https://tobyking13.github.io/Portfolio/
+  https://www.tobyking.dev
 
   ### Screenshot
 

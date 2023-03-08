@@ -1,18 +1,18 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
+import React from "react";
+import { NavLink } from "react-router-dom";
 
-import "./style.css"
+import "./style.css";
 
 function NavTabs({ theme }) {
-  const navbarClass = theme === 'dark' ? 'dark-theme' : 'light-theme';
+  const navbarClass = theme === "dark" ? "dark-theme" : "light-theme";
   return (
-    <ul className={`nav nav-tabs ${navbarClass}`} >
+    <ul className={`nav nav-tabs ${navbarClass}`}>
       <li className={`nav-item btn-grad ${navbarClass}`}>
         <NavLink
           to="/"
           end
           className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
+            isActive ? "nav-link active" : "nav-link"
           }
         >
           Home
@@ -22,7 +22,7 @@ function NavTabs({ theme }) {
         <NavLink
           to="about"
           className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
+            isActive ? "nav-link active" : "nav-link"
           }
         >
           About
@@ -32,7 +32,7 @@ function NavTabs({ theme }) {
         <NavLink
           to="portfolio"
           className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
+            isActive ? "nav-link active" : "nav-link"
           }
         >
           Portfolio
@@ -43,14 +43,12 @@ function NavTabs({ theme }) {
           to="contact"
           end
           className={({ isActive }) =>
-            isActive ? 'nav-link active' : 'nav-link'
+            isActive ? "nav-link active" : "nav-link"
           }
         >
           Contact
         </NavLink>
       </li>
-     
-      
     </ul>
   );
 }
