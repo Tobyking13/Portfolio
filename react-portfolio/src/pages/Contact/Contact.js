@@ -64,7 +64,7 @@ function Contact() {
           <div style={{ display: "flex" }}>
             <iframe
               className="cv"
-              src="https://drive.google.com/file/d/1kUosXMc5kJ1TBSMz_I1rVQR4W-L9k2Fz/preview?usp=sharing"
+              src="https://drive.google.com/file/d/1g3AE-TafpJPDXNLA3HJmD9tfsgHz65Ub/preview?usp=sharing"
               title="cv"
             ></iframe>
           </div>
