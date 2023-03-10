@@ -5,21 +5,23 @@ import "./style.css";
 
 function Home() {
   return (
-    <div className="container">
-      <div>
-        <Jumbotron className="jumbotron" />
-      </div>
-      <div className="container home-div">
-        <div>
-          <Image className="image" />
-        </div>
-        <div>
-          <iframe className="iframe" src="https://tobyking13.github.io/Etch-A-Sketch/" title="Etch A Sketch">
-
-          </iframe>
-        </div>
-      </div>
+<div className="container ">
+  <Jumbotron className="jumbotron">
+    <h1>Heading</h1>
+    <p>Content</p>
+  </Jumbotron>
+  <div className="row justify-content-center">
+    <div className="col-12 col-lg-4 d-flex justify-content-center">
+      <Image src="image.jpg" fluid />
     </div>
+    <div className="col-12 col-lg-8 d-flex justify-content-center">
+      <iframe className="iframe" src="https://tobyking13.github.io/Weather-Dashboard/" title="Etch A Sketch" />
+    </div>
+  </div>
+</div>
+
+
+
   );
 }
 

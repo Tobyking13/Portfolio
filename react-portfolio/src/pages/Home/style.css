@@ -8,11 +8,13 @@
 
 .iframe {
     height: 500px;
-    width: 80vw;
+    width: 800px;
+    margin: 20px;
 }
 
 .me {
     height: 500px;
-    margin-right: 40px;
+    width: auto;
+   margin: 20px;
 }
 
