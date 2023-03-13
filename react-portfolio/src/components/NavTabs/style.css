@@ -19,7 +19,7 @@
   }
   
   .nav-link.active {
-    border: clamp(2px, 0.5vw, 4px) solid black !important;
+    border: clamp(1px, 0.5vw, 2px) solid black !important;
     border-radius: clamp(25px, 2.5vw, 50px) !important;
     box-shadow: rgba(0, 0, 0, 0.56) 0px clamp(5px, 2.5vw, 22px) clamp(15px, 7.5vw, 70px) clamp(2px, 1vw, 4px) !important;
   }
