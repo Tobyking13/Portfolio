@@ -2,7 +2,6 @@ import React, { Component } from "react";
 import Wrapper from "./components/Wrapper/index.js";
 import PortfolioCard from "./components/PortfolioCard/index.js";
 import projects from "../../projects.json";
-import "./style.css";
 
 class Portfolio extends Component {
   state = {

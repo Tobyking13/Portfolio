@@ -17,7 +17,6 @@ let StyledApp = styled.div`
   min-width: 100vw;
   background-color: ${(props) => props.theme.body};
   color: ${(props) => props.theme.title};
-  overflow-x: hidden;
 `;
 
 const darkTheme = {
@@ -38,28 +37,31 @@ function App() {
     setTheme(isDarkTheme ? "light" : "dark");
   };
 
-  
-
   return (
     // <div>
     <ThemeProvider theme={isDarkTheme ? darkTheme : lightTheme}>
-     <StyledApp>
-  <Router>
-    <header>
-      <Title />
-      <NavTabs toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
-
-    </header>
-    <hr className="my-4 header-hr" />
-    <Routes>
-      <Route path="/" element={<Home />} />
-      <Route path="about" element={<About />} />
-      <Route path="portfolio" element={<Portfolio />} />
-      <Route path="contact/*" element={<Contact />} />
-    </Routes>
-  </Router>
-</StyledApp>
-
+      <StyledApp>
+        <Router>
+          <header>
+            <Title />
+            <NavTabs />
+            <div className="theme-switch">
+            <SunIcon />
+            <Switch toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
+            <MoonIcon />
+          </div>
+            </header>
+          <div>
+          <hr className="my-4 header-hr" />
+          </div>
+          <Routes>
+            <Route path="/" element={<Home />} />
+            <Route path="about" element={<About />} />
+            <Route path="portfolio" element={<Portfolio />} />
+            <Route path="contact/*" element={<Contact />} />
+          </Routes>
+        </Router>
+      </StyledApp>
     </ThemeProvider>
     // </div>
   );
