@@ -1,4 +1,6 @@
 import { useLocation } from 'react-router-dom';
+import './style.css'
+
 
 function Title() {
     const location = useLocation();
@@ -21,18 +23,11 @@ function Title() {
             break;
     }
 
-    const style = {
-        fontSize: 'clamp(16px, 5vw, 60px)',
-        textAlign: 'left',
-        position: 'relative',
-        top: '1%',
-        left: '1%'
-
-    }
+   
 
     return (
-        <div>
-            <h1 className="display-4" style={style}>{pageTitle}</h1>
+        <div className='title-div'>
+            <h1 className="display-4 title" >{pageTitle}</h1>
         </div>
     )
 }

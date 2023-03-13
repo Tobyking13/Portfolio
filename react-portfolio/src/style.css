@@ -20,7 +20,7 @@ body {
 }
 
 header {
-    height: 60px !important;
+    height: 80px !important;
 }
 
 @media (max-width: 1000px) {

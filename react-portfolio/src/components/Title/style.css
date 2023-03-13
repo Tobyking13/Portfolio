@@ -1,4 +1,4 @@
-:root {
+/* :root {
     --title-font-size: clamp(2rem, 5vw, 5rem);
   }
   
@@ -12,4 +12,20 @@
     :root {
       --title-font-size: clamp(1.25rem, 3vw, 2rem);
     }
+  } */
+
+.title {
+    
+    font-size: clamp(16px, 5vw, 60px);
+    text-align: left;
+    position: relative;
+    top: 10px;
+    left: 5%;
+
+
+}
+
+  .title-div {
+    height: 80px;
+    width: 40%;
   }
