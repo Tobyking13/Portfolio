@@ -22,9 +22,12 @@ function Title() {
     }
 
     const style = {
+        fontSize: 'clamp(16px, 5vw, 60px)',
+        textAlign: 'left',
         position: 'relative',
-        top: '10px',
-        left: '40px'
+        top: '1%',
+        left: '1%'
+
     }
 
     return (

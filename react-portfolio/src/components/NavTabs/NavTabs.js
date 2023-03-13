@@ -1,9 +1,22 @@
 import React from "react";
 import { NavLink } from "react-router-dom";
-
+import SunIcon from "../switch/icons/sunIcon";
+import MoonIcon from "../switch/icons/moonIcon";
+import Switch from "../switch/switch";
+import styled from "styled-components";
 import "./style.css";
 
-function NavTabs({ theme }) {
+function NavTabs({ theme, toggleTheme, isDarkTheme }) {
+
+  const StyledNavTabs = styled.nav`
+  .theme-switch {
+    display: flex;
+    align-items: center;
+    margin-left: auto;
+    margin-right: 1rem;
+  }
+`;
+
   const navbarClass = theme === "dark" ? "dark-theme" : "light-theme";
   return (
     <ul className={`nav nav-tabs ${navbarClass}`}>
@@ -49,6 +62,12 @@ function NavTabs({ theme }) {
           Contact
         </NavLink>
       </li>
+      <div className="theme-switch">
+  <SunIcon />
+  <Switch toggleTheme={toggleTheme} isDarkTheme={isDarkTheme} />
+  <MoonIcon />
+</div>
+
     </ul>
   );
 }

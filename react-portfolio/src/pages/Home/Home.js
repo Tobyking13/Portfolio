@@ -10,12 +10,14 @@ function Home() {
     <h1>Heading</h1>
     <p>Content</p>
   </Jumbotron>
-  <div className="row justify-content-center">
+  <div className=" row justify-content-center">
     <div className="col-12 col-lg-4 d-flex justify-content-center">
-      <Image src="image.jpg" fluid />
+      <Image src="image.jpg"  />
     </div>
-    <div className="col-12 col-lg-8 d-flex justify-content-center">
-      <iframe className="iframe" src="https://tobyking13.github.io/Weather-Dashboard/" title="Etch A Sketch" />
+    <div className=" col-12 col-lg-8 d-flex justify-content-center">
+  
+      <iframe className="iframe" src="https://tobyking13.github.io/Weather-Dashboard/" title="Weather Dashboard" />
+
     </div>
   </div>
 </div>

@@ -1,21 +1,37 @@
 body {
     margin: 0;
     padding: 0;
+    
+}
+
+#root {
+    background-color: yellow !important;
+    width: 100vw !important;
 }
 
 .theme-switch{
     position: fixed;
     top: 30px;
-    right: 0;
+    right: 2%;
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 200px !important;
+    width: 100px !important;
 }
 
 header {
     height: 60px !important;
 }
+
+@media (max-width: 1000px) {
+    .theme-switch {
+        display: none;
+    }
+}
+
+
+
+
 
 
 

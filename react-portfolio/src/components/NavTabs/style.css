@@ -1,68 +1,65 @@
 .nav-tabs {
     position: absolute;
-    top: 20px;
-    right: 160px;
+    top: clamp(10px, 10%, 20px);
+    right: clamp(10px, 10%, 160px);
     border: none !important;
-    width: 30%; 
-}
-
-.nav-item{
-    width: clamp(10%, 25%, 100%);
+    width: clamp(30%, 40%, 100%);
+  }
+  
+  .nav-item {
+    width: clamp(10%, 25%, 33%);
     display: flex;
     justify-content: center;
     align-items: center;
     z-index: 1;
-}
-
-.nav-link {
+  }
+  
+  .nav-link {
     border: none !important;
-}
-
-.nav-link.active {
-    border: 2px solid black !important;
-    border-radius: 50px !important;
-    box-shadow: rgba(0, 0, 0, 0.56) 0px 22px 70px 4px;
-}
-
-@media (max-width: 1000px) {
+  }
+  
+  .nav-link.active {
+    border: clamp(2px, 0.5vw, 4px) solid black !important;
+    border-radius: clamp(25px, 2.5vw, 50px) !important;
+    box-shadow: rgba(0, 0, 0, 0.56) 0px clamp(5px, 2.5vw, 22px) clamp(15px, 7.5vw, 70px) clamp(2px, 1vw, 4px) !important;
+  }
+  
+  @media (max-width: 1000px) {
     .nav-link.active {
-        border: none !important;   
-        background-color: rgba(0,0,0,0) !important;
+      background-color: rgba(0, 0, 0, 0) !important;
     }
-}
-
-@media (max-width: 800px) {
+  }
+  
+  @media (max-width: 800px) {
     .nav-link.active {
-        border: none !important;   
-        background-color: rgba(0,0,0,0) !important;
+      background-color: rgba(0, 0, 0, 0) !important;
     }
     .nav-tabs {
-        width: 40%;
+      width: clamp(40%, 50%, 100%);
     }
-}
-
-@media (max-width: 590px) {
+  }
+  
+  @media (max-width: 590px) {
     .nav-link.active {
-        border: none !important;   
-        background-color: rgba(0,0,0,0) !important;
+      background-color: rgba(0, 0, 0, 0) !important;
     }
     .nav-tabs {
-        width: 35%;
+      width: clamp(35%, 50%, 100%);
     }
-    .nav-item{
-        width: 25%;
+    .nav-item {
+      width: clamp(25%, 50%, 100%);
     }
     .nav-link {
-        font-size: 10px !important;
+      font-size: clamp(10px, 1.5vw, 14px) !important;
     }
-}
-
-.nav-link:hover {
+  }
+  
+  .nav-link:hover {
     background-color: none;
-    text-decoration: none;    
-}
-
-.nav-link a {
     text-decoration: none;
-}
-
+  }
+  
+  .nav-link a {
+    text-decoration: none;
+  }
+  
