@@ -2,7 +2,7 @@ import React from "react";
 import Me from "./Toby.jpg"
 
 const style = {
-    height: '500px',
+    height: '480px',
     width: 'auto',
     marginTop: '10px'
 }
