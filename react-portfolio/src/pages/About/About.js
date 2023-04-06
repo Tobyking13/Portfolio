@@ -14,7 +14,7 @@ function About() {
           I am a passionate and driven front-end web developer with expertise in
           the latest web technologies. My love for music and sound engineering,
           combined with my technical skills, bring a unique perspective to my
-          work. Originally from London, I am currently based in Cornwall where I
+          work. I am currently based in Cornwall where I
           can fully immerse myself in the beauty of the coast while pursuing my
           passion for web development.
         </p>
